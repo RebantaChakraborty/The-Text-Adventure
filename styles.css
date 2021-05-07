@@ -1,18 +1,26 @@
 *, *::before, *::after {
   box-sizing: border-box;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+header{
+  font-family:  'Dancing Script', cursive;
+  font-size: larger;
+  color: #b8b5ff;
+}
+body{
+  background-color:#31326f;
+  position: relative;
 }
 
 
-body {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  height: 100vh;
-  background-color: #150e56;
+.mains {
+  height: 10%;
+  width: 10%;
+  margin: auto;
+  padding: auto;
+  margin-top: 150px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 .container {
